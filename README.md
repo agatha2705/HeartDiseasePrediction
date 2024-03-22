@@ -11,7 +11,7 @@ Aqui entra uma análise mais aprofundada explorando mais **cada coluna** e a sua
 Como esse dataset não é muito grande, não tem tanta importância, mas é uma boa prática quando se trata de datasets mais volumosos. Essa boa prática consiste em transformar as colunas de texto **`"object"`** para **`"category"`**, isso diminui consideravelmente o espaço ocupado por esses dados.
 
 ## Etapa 4: Analisando os outliers
-Foi resolvido não tirar os outliers, ou seja, os "fora da curva", já que se trata da previsão de possíveis riscos e imprevistos, então achei melhor mantê-los.
+Foi resolvido não tirar os outliers, já que se trata da previsão de possíveis riscos e imprevistos, então achei melhor mantê-los.
 
 ## Etapa 5: One Hot Encoding
 Nessa etapa, as colunas postas como categóricas na etapa 3 foram transformadas em colunas numéricas com o método **`One Hot Encoding`** para o nosso modelo de machine learning.
