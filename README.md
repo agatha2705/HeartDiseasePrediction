@@ -23,7 +23,7 @@ Lembrando, a nossa variável target é a coluna "HeartDisease", a coluna que que
 ## Etapa 7: Separando os dados em dados de treino e teste (Train Test Split) & Padronizando os dados
 Após separar os dados com **`Train Test Split`**, chegou a hora de padronizá-los. Para isso foi utilizado o método **`StandardScaler`**. Com isso, padronizei tanto o X_treino quanto o X_teste.
 
-Pelos gráficos anteriores fazia mais sentido normalizá-los, já que a `normalização(normalization)` é mais utilizada, em geral, quando não sabemos a distribuição dos dados, ou sabemos que **`não é uma ditribuição gaussiana (normal)`**, sendo uma ténica útil principalmente em algoritmos que não fazem suposições sobre a distribuição, como KNN ou redes neurais. Já a `padronização` é mais usada quando se sabe que a distribuição dos dados **`segue uma curva de distribuição gaussiana`**, ou muito próxima.
+Pelos gráficos anteriores fazia mais sentido normalizá-los, já que a `normalização(normalization)` é mais utilizada, em geral, quando não sabemos a distribuição dos dados, ou sabemos que **`não é uma ditribuição gaussiana (normal)`**, sendo uma ténica útil principalmente em algoritmos que não fazem suposições sobre a distribuição, como KNN ou redes neurais. Já a `padronização(standardization)` é mais usada quando se sabe que a distribuição dos dados **`segue uma curva de distribuição gaussiana`**, ou muito próxima.
 - Mas pelos resultados, a padronização(standardization) obteve melhores resultados.
 
 ## Etapa 8: Criando, Treinando e Avaliando os Modelos de Machine Learning
