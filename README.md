@@ -2,7 +2,7 @@
 Projeto para previsão de insuficiência cardíaca - **[Dataset do Kaggle aqui](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction)**
 
 ## Etapa 1: Importando e entendendo a base de dados
-Nessa estapa foi feito apenas o básico, importação das bibliotecas, da base de dados do Kaggle, verificação de valores vazios, valores únicos... Mais uma análise visual rápida para uma visão mais geral do problema.
+Nessa estapa foi feito apenas o básico, importação das bibliotecas, da base de dados do Kaggle, verificação de valores vazios, valores únicos... Uma análise visual rápida para uma visão mais geral do problema.
 
 ## Etapa 2: Análise Exploratória (EDA)
 Aqui entra uma análise mais aprofundada explorando mais **cada coluna** e a sua **relação com a coluna target "HeartDisease"**, que seria justamente a coluna que nos diz (0 ou 1), caso uma pessoa tenha ou não algum risco. Além de demonstrações gráficas mais intuitivas.
