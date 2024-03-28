@@ -34,6 +34,7 @@ Os modelos testados foram o `KNN`(KNeighborsClassifier), `clf`(RandomForestClass
 #### Configurando hiperparâmetros
 - Depois de ter escolhido o melhor modelo chegou a hora de otimizá-lo. E para isso foi utilizado o método **`GridSearchCV`**. Com ele foi possível ver quais hiperparametros seriam mais adequados ao nosso modelo de previsão.
 > A **pontuação** do nosso modelo de previsão para os dados de **treino** foi de **`98.31%`**.
+> 
 > A **pontuação** do nosso modelo de previsão para os dados de **teste** foi de **`89.18%`**.
 
 #### Criando um Sistema de previsão simples
